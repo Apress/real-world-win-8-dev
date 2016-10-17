@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="1805SamidipBasu.ApressDemo" Publisher="CN=792724AB-A262-4445-8C40-CF7DB59F53DB" Version="1.0.0.0" />
+  <Properties>
+    <DisplayName>ApressDemo</DisplayName>
+    <PublisherDisplayName>Samidip Basu</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.1</OSMinVersion>
+    <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="ApressDemo.App">
+      <VisualElements DisplayName="ApressDemo" Logo="Assets\Logo.png" SmallLogo="Assets\SmallLogo.png" Description="ApressDemo" ForegroundText="light" BackgroundColor="black" ToastCapable="true">
+        <LockScreen Notification="badgeAndTileText" BadgeLogo="Assets\BadgeLogo.png" />
+        <DefaultTile WideLogo="Assets\ApressLogoWide.png" />
+        <SplashScreen Image="Assets\ApressLogo.png" BackgroundColor="black" />
+        <InitialRotationPreference>
+          <Rotation Preference="portrait" />
+          <Rotation Preference="landscape" />
+          <Rotation Preference="portraitFlipped" />
+          <Rotation Preference="landscapeFlipped" />
+        </InitialRotationPreference>
+      </VisualElements>
+      <Extensions>
+        <Extension Category="windows.backgroundTasks" EntryPoint="BackgroundAgentDemo.ApressBackgroundAgent">
+          <BackgroundTasks>
+            <Task Type="systemEvent" />
+            <Task Type="timer" />
+            <Task Type="pushNotification" />
+          </BackgroundTasks>
+        </Extension>
+        <Extension Category="windows.search" />
+        <Extension Category="windows.fileOpenPicker">
+          <FileOpenPicker>
+            <SupportedFileTypes>
+              <SupportsAnyFileType />
+            </SupportedFileTypes>
+          </FileOpenPicker>
+        </Extension>
+      </Extensions>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="videosLibrary" />
+    <Capability Name="musicLibrary" />
+    <Capability Name="internetClient" />
+    <DeviceCapability Name="webcam" />
+    <DeviceCapability Name="microphone" />
+  </Capabilities>
+</Package>

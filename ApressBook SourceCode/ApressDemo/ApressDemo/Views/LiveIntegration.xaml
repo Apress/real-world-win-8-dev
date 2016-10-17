@@ -1,0 +1,117 @@
+﻿<common:LayoutAwarePage
+    x:Name="pageRoot"
+    x:Class="ApressDemo.Views.LiveIntegration"
+    DataContext="{Binding DefaultViewModel, RelativeSource={RelativeSource Self}}"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ApressDemo.Views"
+    xmlns:common="using:ApressDemo.Common"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+
+    <Grid Style="{StaticResource LayoutRootStyle}" Background="Black">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="140"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Page title -->
+        <Grid Grid.Row="0">
+            <StackPanel Orientation="Horizontal" Margin="20,10,0,0">
+                <Button x:Name="backButton" Click="GoBack" IsEnabled="{Binding Frame.CanGoBack, ElementName=pageRoot}" Style="{StaticResource BackButtonStyle}"/>
+                <Image Source="/Assets/ApressLogo.png" Width="200" Height="100" VerticalAlignment="Center" Margin="-10,20,0,0"/>
+                <TextBlock x:Name="pageTitle" Text="Live Service Integration" Style="{StaticResource PageHeaderTextStyle}" VerticalAlignment="Center" Margin="10,10,0,10"/>
+            </StackPanel>
+        </Grid>
+        
+        <!-- Page Content -->
+        <StackPanel Orientation="Vertical" Margin="140,50,0,0" Grid.Row="1">
+            <TextBlock Text="Features in this section require logging in with MSFT Account and allowing access!" FontSize="24" />
+            <TextBlock x:Name="actionText" Text="Sign in Now!" FontSize="24" Foreground="Aqua" Margin="0,30,0,0" Tapped="actionText_Tapped" />
+            <StackPanel Orientation="Horizontal" Margin="0,5,0,0">
+                <TextBlock x:Name="userInfoText" FontSize="24" VerticalAlignment="Center" />
+                <Image x:Name="profilePicture" Width="100" Height="100" Margin="30,0,0,0" VerticalAlignment="Bottom"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <StackPanel Orientation="Vertical" x:Name="contactsSection" Visibility="Collapsed" Margin="0,10,0,0">
+                    <TextBlock Text="Contacts List:" FontSize="20" />
+                    <ScrollViewer>
+                    <ListBox x:Name="contactsList" Height="300" Margin="0,5,0,0">
+                            <ListBox.ItemTemplate>
+                                <DataTemplate>
+                                    <TextBlock Text="{Binding name}" FontSize="10" />
+                                </DataTemplate>
+                            </ListBox.ItemTemplate>
+                        </ListBox>
+                    </ScrollViewer>
+                </StackPanel>
+                <StackPanel Orientation="Vertical" x:Name="calendarSection" Visibility="Collapsed" Margin="40,10,0,0">
+                    <TextBlock Text="Live Calendar Events:" FontSize="20" />
+                    <ScrollViewer>
+                        <ListBox x:Name="eventsList" Height="300" Width="230" Margin="0,5,0,0">
+                            <ListBox.ItemTemplate>
+                                <DataTemplate>
+                                    <StackPanel Orientation="Horizontal">
+                                        <TextBlock Text="{Binding name}" FontSize="10" />
+                                        <TextBlock Text=" @ " FontSize="10" />
+                                        <TextBlock Text="{Binding start_time}" FontSize="10" />
+                                    </StackPanel>
+                                </DataTemplate>
+                            </ListBox.ItemTemplate>
+                        </ListBox>
+                    </ScrollViewer>
+                </StackPanel>
+                <StackPanel Orientation="Vertical" x:Name="skyDriveSection" Visibility="Collapsed" Margin="40,10,0,0">
+                    <TextBlock Text="SkyDrive Content:" FontSize="20" />
+                    <ScrollViewer>
+                        <ListBox x:Name="skyDriveList" Height="300" Margin="0,5,0,0">
+                            <ListBox.ItemTemplate>
+                                <DataTemplate>
+                                    <StackPanel Orientation="Horizontal">
+                                        <TextBlock Text="{Binding name}" FontSize="10" />
+                                    </StackPanel>
+                                </DataTemplate>
+                            </ListBox.ItemTemplate>
+                        </ListBox>
+                    </ScrollViewer>
+                </StackPanel>
+                <StackPanel Orientation="Vertical" x:Name="uploadSection" Visibility="Collapsed" Margin="50,10,0,0">
+                    <TextBlock Text="Upload a picture to SkyDrive:" FontSize="20" />
+                    <Button x:Name="fileUpload" Content="Choose file .." Margin="0,10,0,0" Click="fileUpload_Click"/>
+                </StackPanel>
+            </StackPanel>
+        </StackPanel>
+
+        <VisualStateManager.VisualStateGroups>
+
+            <!-- Visual states reflect the application's view state -->
+            <VisualStateGroup x:Name="ApplicationViewStates">
+                <VisualState x:Name="FullScreenLandscape"/>
+                <VisualState x:Name="Filled"/>
+
+                <!-- The entire page respects the narrower 100-pixel margin convention for portrait -->
+                <VisualState x:Name="FullScreenPortrait">
+                    <Storyboard>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="backButton" Storyboard.TargetProperty="Style">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource PortraitBackButtonStyle}"/>
+                        </ObjectAnimationUsingKeyFrames>
+                    </Storyboard>
+                </VisualState>
+
+                <!-- The back button and title have different styles when snapped -->
+                <VisualState x:Name="Snapped">
+                    <Storyboard>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="backButton" Storyboard.TargetProperty="Style">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource SnappedBackButtonStyle}"/>
+                        </ObjectAnimationUsingKeyFrames>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="pageTitle" Storyboard.TargetProperty="Style">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource SnappedPageHeaderTextStyle}"/>
+                        </ObjectAnimationUsingKeyFrames>
+                    </Storyboard>
+                </VisualState>
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
+    </Grid>
+</common:LayoutAwarePage>

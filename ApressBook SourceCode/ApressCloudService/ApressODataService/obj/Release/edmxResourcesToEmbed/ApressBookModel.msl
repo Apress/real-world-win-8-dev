@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ApressBookDBModelStoreContainer" CdmEntityContainer="ApressBookDBEntities">
+    <EntitySetMapping Name="ApressBooks">
+      <EntityTypeMapping TypeName="ApressBookDBModel.ApressBook">
+        <MappingFragment StoreEntitySet="ApressBook">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ApressBookISBN" ColumnName="ApressBookISBN" />
+          <ScalarProperty Name="ApressBookName" ColumnName="ApressBookName" />
+          <ScalarProperty Name="ApressBookTechnology" ColumnName="ApressBookTechnology" />
+          <ScalarProperty Name="ApressBookAuthor" ColumnName="ApressBookAuthor" />
+          <ScalarProperty Name="ApressBookPublishedDate" ColumnName="ApressBookPublishedDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

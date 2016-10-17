@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ApressBookDBModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="ApressBookDBModelStoreContainer">
+    <EntitySet Name="ApressBook" EntityType="ApressBookDBModel.Store.ApressBook" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
+  <EntityType Name="ApressBook">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ApressBookISBN" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="ApressBookName" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="ApressBookTechnology" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="ApressBookAuthor" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="ApressBookPublishedDate" Type="date" Nullable="false" />
+  </EntityType>
+</Schema>

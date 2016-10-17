@@ -1,0 +1,17 @@
+C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressCloudService\ApressCloudService\bin\Release\ServiceConfiguration.cscfg
+C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressCloudService\ApressCloudService\bin\Release\ServiceDefinition.csdef
+C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressCloudService\ApressCloudService\bin\Release\ValidationIssues.xml
+C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressCloudService\ApressCloudService\obj\Release\ApressODataService\ApressBookModel.edmx.diagram
+C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressCloudService\ApressCloudService\obj\Release\ApressODataService\ApressOData.svc
+C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressCloudService\ApressCloudService\obj\Release\ApressODataService\bin\ApressODataService.dll
+C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressCloudService\ApressCloudService\obj\Release\ApressODataService\bin\EntityFramework.dll
+C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressCloudService\ApressCloudService\obj\Release\ApressODataService\bin\Microsoft.Data.Edm.dll
+C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressCloudService\ApressCloudService\obj\Release\ApressODataService\bin\Microsoft.Data.OData.dll
+C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressCloudService\ApressCloudService\obj\Release\ApressODataService\bin\Microsoft.Data.Services.Client.dll
+C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressCloudService\ApressCloudService\obj\Release\ApressODataService\bin\Microsoft.Data.Services.dll
+C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressCloudService\ApressCloudService\obj\Release\ApressODataService\bin\Microsoft.WindowsAzure.Configuration.dll
+C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressCloudService\ApressCloudService\obj\Release\ApressODataService\bin\Microsoft.WindowsAzure.Diagnostics.dll
+C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressCloudService\ApressCloudService\obj\Release\ApressODataService\bin\Microsoft.WindowsAzure.StorageClient.dll
+C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressCloudService\ApressCloudService\obj\Release\ApressODataService\bin\System.Spatial.dll
+C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressCloudService\ApressCloudService\obj\Release\ApressODataService\packages.config
+C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressCloudService\ApressCloudService\obj\Release\ApressODataService\Web.config

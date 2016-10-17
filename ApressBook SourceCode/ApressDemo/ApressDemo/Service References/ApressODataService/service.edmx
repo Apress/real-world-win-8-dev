@@ -1,0 +1,22 @@
+﻿<edmx:Edmx Version="1.0" xmlns:edmx="http://schemas.microsoft.com/ado/2007/06/edmx">
+  <edmx:DataServices m:DataServiceVersion="1.0" m:MaxDataServiceVersion="3.0" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata">
+    <Schema Namespace="ApressBookDBModel" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+      <EntityType Name="ApressBook">
+        <Key>
+          <PropertyRef Name="ID" />
+        </Key>
+        <Property Name="ID" Type="Edm.Int32" Nullable="false" p6:StoreGeneratedPattern="Identity" xmlns:p6="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
+        <Property Name="ApressBookISBN" Type="Edm.String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+        <Property Name="ApressBookName" Type="Edm.String" Nullable="false" MaxLength="200" FixedLength="false" Unicode="true" />
+        <Property Name="ApressBookTechnology" Type="Edm.String" Nullable="false" MaxLength="200" FixedLength="false" Unicode="true" />
+        <Property Name="ApressBookAuthor" Type="Edm.String" Nullable="false" MaxLength="200" FixedLength="false" Unicode="true" />
+        <Property Name="ApressBookPublishedDate" Type="Edm.DateTime" Nullable="false" Precision="0" />
+      </EntityType>
+    </Schema>
+    <Schema Namespace="ApressODataService" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+      <EntityContainer Name="ApressBookDBEntities" m:IsDefaultEntityContainer="true" p6:LazyLoadingEnabled="true" xmlns:p6="http://schemas.microsoft.com/ado/2009/02/edm/annotation">
+        <EntitySet Name="ApressBooks" EntityType="ApressBookDBModel.ApressBook" />
+      </EntityContainer>
+    </Schema>
+  </edmx:DataServices>
+</edmx:Edmx>

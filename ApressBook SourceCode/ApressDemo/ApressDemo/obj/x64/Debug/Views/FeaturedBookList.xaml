@@ -1,0 +1,194 @@
+﻿<common:LayoutAwarePage
+    x:Name="pageRoot"
+    x:Class="ApressDemo.Views.FeaturedBookList"
+    DataContext="{Binding DefaultViewModel, RelativeSource={RelativeSource Self}}"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ApressDemo.Views"
+    xmlns:common="using:ApressDemo.Common"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Page.Resources>
+        
+        <!-- Collection of grouped Apress Books displayed by this page -->
+        <CollectionViewSource
+            x:Name="groupedItemsViewSource"
+            Source="{Binding GroupedFeaturedApressBooks}"
+            IsSourceGrouped="true"
+            ItemsPath="BookCollection"/>
+        
+    </Page.Resources>
+
+    <Grid Style="{StaticResource LayoutRootStyle}" Background="Black">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="140"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Page title -->
+        <Grid Grid.Row="0" x:Name="regularHeader">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            <StackPanel Orientation="Horizontal" Margin="20,0,0,0">
+                <Button x:ConnectionId='5' x:Name="backButton"                IsEnabled="{Binding Frame.CanGoBack, ElementName=pageRoot}" Style="{StaticResource BackButtonStyle}" />
+                <Image Source="/Assets/ApressLogo.png" Width="200" Height="100" VerticalAlignment="Center" Margin="-120,15,0,0"/>
+                <TextBlock x:Name="pageTitle" Grid.Column="1" Text="{StaticResource AppName}" Style="{StaticResource PageHeaderTextStyle}" VerticalAlignment="Center" Margin="10,10,0,10"/>
+            </StackPanel>
+        </Grid>
+
+        <Grid Grid.Row="0" x:Name="snappedHeader" Visibility="Collapsed">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            <StackPanel Orientation="Horizontal">
+                <Image Source="/Assets/ApressLogo.png" Width="200" Height="100" VerticalAlignment="Center" Margin="10,15,0,0"/>
+            </StackPanel>
+        </Grid>
+
+        <!-- FullScreen/Filled Mode -->
+        <SemanticZoom Grid.Row="1" x:Name="semanticZoomer">
+            
+            <SemanticZoom.ZoomedInView>
+                <GridView x:ConnectionId='3'
+                    x:Name="itemGridView"
+                    AutomationProperties.AutomationId="ItemGridView"
+                    AutomationProperties.Name="Grouped Items"
+                    Margin="30,80,40,46"
+                    VerticalAlignment="Center"
+                    ItemsSource="{Binding Source={StaticResource groupedItemsViewSource}}"
+                    ItemTemplate="{StaticResource Apress277x350BookTemplate}"
+                    SelectionMode="None"
+                    IsSwipeEnabled="false"
+                    IsItemClickEnabled="True"
+                                              >
+   
+                    <GridView.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <VirtualizingStackPanel Orientation="Horizontal"/>
+                        </ItemsPanelTemplate>
+                    </GridView.ItemsPanel>
+                    <GridView.GroupStyle>
+                        <GroupStyle>
+                            <GroupStyle.HeaderTemplate>
+                                <DataTemplate>
+                                    <Grid Margin="1,0,0,6">
+                                        <StackPanel Orientation="Horizontal">
+                                            <Button x:ConnectionId='4' AutomationProperties.Name="Group Title" Content="{Binding ApressBookGroupName}" Style="{StaticResource ApressTextButtonStyle}" VerticalAlignment="Center"                             Foreground="White"/>
+                                            <TextBlock Text="(" Style="{StaticResource SubheaderTextStyle}" VerticalAlignment="Top" Margin="10,0,5,0"/>
+                                            <TextBlock Text="{Binding ApressBookGroupCount}" Style="{StaticResource SubheaderTextStyle}" VerticalAlignment="Top"/>
+                                            <TextBlock Text=")" Style="{StaticResource SubheaderTextStyle}" VerticalAlignment="Top" Margin="5,0,5,0"/>
+                                        </StackPanel>
+                                    </Grid>
+                                </DataTemplate>
+                            </GroupStyle.HeaderTemplate>
+                            <GroupStyle.Panel>
+                                <ItemsPanelTemplate>
+                                    <VariableSizedWrapGrid Orientation="Vertical" Margin="0,0,100,0"/>
+                                </ItemsPanelTemplate>
+                            </GroupStyle.Panel>
+                        </GroupStyle>
+                    </GridView.GroupStyle>
+                </GridView>
+            </SemanticZoom.ZoomedInView>
+
+            <SemanticZoom.ZoomedOutView>
+                <ListView VerticalAlignment="Center" ItemTemplate="{StaticResource Apress250x250TechTemplate}">
+                    <ListView.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Margin="100,0,0,0"/>
+                        </ItemsPanelTemplate>
+                    </ListView.ItemsPanel>
+                </ListView>
+            </SemanticZoom.ZoomedOutView>
+            
+        </SemanticZoom>
+
+        <!-- Snapped Mode -->
+        <ListView x:ConnectionId='1'
+            x:Name="snappedListView"
+            AutomationProperties.AutomationId="ItemListView"
+            AutomationProperties.Name="Grouped Items"
+            Grid.Row="1"
+            Visibility="Collapsed"
+            Margin="0,-10,0,0"
+            Padding="10,0,0,60"
+            ItemsSource="{Binding Source={StaticResource groupedItemsViewSource}}"
+            ItemTemplate="{StaticResource ApressSnappedBookTemplate}"
+            SelectionMode="None"
+            IsSwipeEnabled="false"
+            IsItemClickEnabled="True"
+                                      >
+
+            <ListView.GroupStyle>
+                <GroupStyle>
+                    <GroupStyle.HeaderTemplate>
+                        <DataTemplate>
+                            <Grid Margin="7,7,0,0">
+                                <Button x:ConnectionId='2'
+                                    AutomationProperties.Name="Group Title"
+                                                               
+                                    Style="{StaticResource TextPrimaryButtonStyle}">
+                                    <StackPanel Orientation="Horizontal">
+                                        <TextBlock Text="{Binding ApressBookGroupName}" Margin="3,-7,10,10" Style="{StaticResource GroupHeaderTextStyle}" Foreground="White" />
+                                        <TextBlock Text="{StaticResource ChevronGlyph}" FontFamily="Segoe UI Symbol" Margin="0,-7,0,10" Style="{StaticResource GroupHeaderTextStyle}"/>
+                                    </StackPanel>
+                                </Button>
+                            </Grid>
+                        </DataTemplate>
+                    </GroupStyle.HeaderTemplate>
+                </GroupStyle>
+            </ListView.GroupStyle>
+        </ListView>
+
+        <VisualStateManager.VisualStateGroups>
+
+            <!-- Visual states reflect the application's view state -->
+            <VisualStateGroup x:Name="ApplicationViewStates">
+                <VisualState x:Name="FullScreenLandscape"/>
+                <VisualState x:Name="Filled"/>
+
+                <VisualState x:Name="Snapped">
+                    <Storyboard>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="snappedListView" Storyboard.TargetProperty="Visibility">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="Visible"/>
+                        </ObjectAnimationUsingKeyFrames>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="semanticZoomer" Storyboard.TargetProperty="Visibility">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="Collapsed"/>
+                        </ObjectAnimationUsingKeyFrames>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="snappedHeader" Storyboard.TargetProperty="Visibility">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="Visible"/>
+                        </ObjectAnimationUsingKeyFrames>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="regularHeader" Storyboard.TargetProperty="Visibility">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="Collapsed"/>
+                        </ObjectAnimationUsingKeyFrames>
+                    </Storyboard>
+                </VisualState>
+
+
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
+        
+    </Grid>
+
+    <Page.BottomAppBar>
+        <AppBar x:Name="bottomAppBar" Padding="10,0,10,0">
+            <Grid>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                    <Button x:ConnectionId='6' Style="{StaticResource SearchAppBarButtonStyle}" x:Name="searchButton"                           />
+                    <Button x:ConnectionId='7' Style="{StaticResource PicturesAppBarButtonStyle}" x:Name="loadButton"                         />
+                    <Button x:ConnectionId='8' Style="{StaticResource WebcamAppBarButtonStyle}" x:Name="accountButton"                            />
+                    <Button x:ConnectionId='9' Style="{StaticResource PlayAppBarButtonStyle}" x:Name="mediaButton"                          />
+                    <Button x:ConnectionId='10' Style="{StaticResource ManageAppBarButtonStyle}" x:Name="manageButton"                           />
+                    <Button x:ConnectionId='11' Style="{StaticResource SyncFolderAppBarButtonStyle}" x:Name="liveButton"                         />
+                    <Button x:ConnectionId='12' Style="{StaticResource VideoChatAppBarButtonStyle}" x:Name="chatButton"                         />
+                    <Button x:ConnectionId='13' Style="{StaticResource RedoAppBarButtonStyle}" x:Name="mvvmButton"                         />
+                </StackPanel>
+            </Grid>
+        </AppBar>
+    </Page.BottomAppBar>
+    
+</common:LayoutAwarePage>
+

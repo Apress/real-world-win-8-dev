@@ -1,0 +1,16 @@
+﻿<Page
+    x:Class="ApressDemo.Views.DummySplashScreen"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ApressDemo.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="Black">
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Image Source="/Assets/ApressLogo.png" HorizontalAlignment="Center" VerticalAlignment="Center" Width="620" Height="300"/>
+            <ProgressRing Visibility="Visible" IsActive="True" Foreground="White" Width="50" Height="50" />
+        </StackPanel>
+    </Grid>
+</Page>

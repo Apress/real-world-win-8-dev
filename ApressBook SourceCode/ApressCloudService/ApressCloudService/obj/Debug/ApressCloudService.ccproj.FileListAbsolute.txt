@@ -1,0 +1,2 @@
+C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressCloudService\ApressCloudService\bin\Debug\ServiceConfiguration.cscfg
+C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressCloudService\ApressCloudService\bin\Debug\ServiceDefinition.csdef

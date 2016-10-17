@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>SAMIDIPBASU5906</Machine>
+    <WindowsUser>aapelpro</WindowsUser>
+    <SolutionConfiguration>Release|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\ApressDemo\bin\Release\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\ApressDemo\bin\Release\ApressDemo.exe">
+      <PackagePath>ApressDemo.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\ApressDemo\bin\Release\ApressDemo.pdb">
+      <PackagePath>ApressDemo.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\ApressDemo\Assets\ApressLogo.PNG">
+      <PackagePath>Assets\ApressLogo.PNG</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\ApressDemo\Assets\ApressLogoWide.PNG">
+      <PackagePath>Assets\ApressLogoWide.PNG</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\ApressDemo\Assets\ASPDotNetLogo.png">
+      <PackagePath>Assets\ASPDotNetLogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\ApressDemo\Assets\ASPWebAPI.png">
+      <PackagePath>Assets\ASPWebAPI.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\ApressDemo\Assets\AzurePlatform.png">
+      <PackagePath>Assets\AzurePlatform.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\ApressDemo\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\ApressDemo\Assets\MigratingToWP.png">
+      <PackagePath>Assets\MigratingToWP.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\ApressDemo\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\ApressDemo\Assets\SQLAzure.png">
+      <PackagePath>Assets\SQLAzure.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\ApressDemo\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\ApressDemo\Assets\LightGray.png">
+      <PackagePath>Assets\LightGray.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\ApressDemo\Assets\MediumGray.png">
+      <PackagePath>Assets\MediumGray.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\ApressDemo\Assets\DarkGray.png">
+      <PackagePath>Assets\DarkGray.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\ApressDemo\Assets\UltraFastASP.png">
+      <PackagePath>Assets\UltraFastASP.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\ApressDemo\Assets\WindowsAzureLogo.png">
+      <PackagePath>Assets\WindowsAzureLogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\ApressDemo\Assets\WindowsPhoneLogo.png">
+      <PackagePath>Assets\WindowsPhoneLogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\ApressDemo\Assets\WPAppDev.png">
+      <PackagePath>Assets\WPAppDev.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\ApressDemo\Assets\WPRecipes.png">
+      <PackagePath>Assets\WPRecipes.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\ApressDemo\bin\Release\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\ApressDemo\bin\Release\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\ApressDemo\bin\Release\GroupedItemsPage.xaml">
+      <PackagePath>GroupedItemsPage.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\ApressDemo\bin\Release\GroupDetailPage.xaml">
+      <PackagePath>GroupDetailPage.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\ApressDemo\bin\Release\ItemDetailPage.xaml">
+      <PackagePath>ItemDetailPage.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\ApressDemo\bin\Release\Views\BookDetails.xaml">
+      <PackagePath>Views\BookDetails.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\ApressDemo\bin\Release\Views\BookGroupsByTechnology.xaml">
+      <PackagePath>Views\BookGroupsByTechnology.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\ApressDemo\bin\Release\Views\DummySplashScreen.xaml">
+      <PackagePath>Views\DummySplashScreen.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\ApressDemo\bin\Release\Views\FeaturedBookList.xaml">
+      <PackagePath>Views\FeaturedBookList.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\ApressDemo\bin\Release\Views\FlipViewDemo.xaml">
+      <PackagePath>Views\FlipViewDemo.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\ApressDemo\bin\Release\Views\ListViewDemo.xaml">
+      <PackagePath>Views\ListViewDemo.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\ApressDemo\bin\Release\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

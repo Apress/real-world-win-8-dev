@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>SAMIDIPBASU5906</Machine>
+    <WindowsUser>aapelpro</WindowsUser>
+    <SolutionConfiguration>Release|x64</SolutionConfiguration>
+    <PackageArchitecture>x64</PackageArchitecture>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\ApressDemo\bin\x64\Release\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\ApressDemo\bin\x64\Release\ApressDemo.exe">
+      <PackagePath>ApressDemo.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\ApressDemo\bin\x64\Release\ApressDemo.pdb">
+      <PackagePath>ApressDemo.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\BackgroundAgentDemo\bin\Release\BackgroundAgentDemo.pdb">
+      <PackagePath>BackgroundAgentDemo.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Live\v5.0\Windows Store app XAML\References\CommonConfiguration\Neutral\Microsoft.Live.dll">
+      <PackagePath>Microsoft.Live.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\MobileServicesManagedClient\0.2.0.0\References\CommonConfiguration\neutral\Microsoft.WindowsAzure.MobileServices.Managed.dll">
+      <PackagePath>Microsoft.WindowsAzure.MobileServices.Managed.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\packages\MvvmLightLibs.4.1.27.0\lib\netcore45\GalaSoft.MvvmLight.Extras.Win8.dll">
+      <PackagePath>GalaSoft.MvvmLight.Extras.Win8.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\packages\MvvmLightLibs.4.1.27.0\lib\netcore45\GalaSoft.MvvmLight.Win8.dll">
+      <PackagePath>GalaSoft.MvvmLight.Win8.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\packages\Microsoft.AspNet.SignalR.Client.1.0.1\lib\winrt\Microsoft.AspNet.SignalR.Client.dll">
+      <PackagePath>Microsoft.AspNet.SignalR.Client.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\packages\Microsoft.Data.OData.WindowsStore.5.0.0\lib\.NETCore\Microsoft.Data.Edm.WindowsStore.dll">
+      <PackagePath>Microsoft.Data.Edm.WindowsStore.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\packages\Microsoft.Data.OData.WindowsStore.5.0.0\lib\.NETCore\Microsoft.Data.OData.WindowsStore.dll">
+      <PackagePath>Microsoft.Data.OData.WindowsStore.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\packages\Microsoft.Data.Services.Client.WindowsStore.5.0.0\lib\.NETCore\Microsoft.Data.Services.Client.WindowsStore.dll">
+      <PackagePath>Microsoft.Data.Services.Client.WindowsStore.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\packages\MvvmLightLibs.4.1.27.0\lib\netcore45\Microsoft.Practices.ServiceLocation.dll">
+      <PackagePath>Microsoft.Practices.ServiceLocation.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\packages\Newtonsoft.Json.4.5.11\lib\winrt45\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\packages\Microsoft.Data.OData.WindowsStore.5.0.0\lib\.NETCore\System.Spatial.WindowsStore.dll">
+      <PackagePath>System.Spatial.WindowsStore.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\packages\WinRtBehaviors.1.0.2\lib\winrt45\WinRtBehaviors.dll">
+      <PackagePath>WinRtBehaviors.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\BackgroundAgentDemo\bin\Release\BackgroundAgentDemo.winmd">
+      <PackagePath>BackgroundAgentDemo.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\packages\MvvmLightLibs.4.1.27.0\lib\netcore45\GalaSoft.MvvmLight.Extras.Win8.pdb">
+      <PackagePath>GalaSoft.MvvmLight.Extras.Win8.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\packages\MvvmLightLibs.4.1.27.0\lib\netcore45\GalaSoft.MvvmLight.Win8.pdb">
+      <PackagePath>GalaSoft.MvvmLight.Win8.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\packages\MvvmLightLibs.4.1.27.0\lib\netcore45\Microsoft.Practices.ServiceLocation.pdb">
+      <PackagePath>Microsoft.Practices.ServiceLocation.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\packages\MvvmLightLibs.4.1.27.0\lib\netcore45\GalaSoft.MvvmLight.Extras.Win8.xml">
+      <PackagePath>GalaSoft.MvvmLight.Extras.Win8.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\packages\MvvmLightLibs.4.1.27.0\lib\netcore45\GalaSoft.MvvmLight.Win8.xml">
+      <PackagePath>GalaSoft.MvvmLight.Win8.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\packages\Microsoft.AspNet.SignalR.Client.1.0.1\lib\winrt\Microsoft.AspNet.SignalR.Client.xml">
+      <PackagePath>Microsoft.AspNet.SignalR.Client.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\packages\Microsoft.Data.OData.WindowsStore.5.0.0\lib\.NETCore\Microsoft.Data.Edm.WindowsStore.xml">
+      <PackagePath>Microsoft.Data.Edm.WindowsStore.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\packages\Microsoft.Data.OData.WindowsStore.5.0.0\lib\.NETCore\Microsoft.Data.OData.WindowsStore.xml">
+      <PackagePath>Microsoft.Data.OData.WindowsStore.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\packages\Microsoft.Data.Services.Client.WindowsStore.5.0.0\lib\.NETCore\Microsoft.Data.Services.Client.WindowsStore.xml">
+      <PackagePath>Microsoft.Data.Services.Client.WindowsStore.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\packages\MvvmLightLibs.4.1.27.0\lib\netcore45\Microsoft.Practices.ServiceLocation.xml">
+      <PackagePath>Microsoft.Practices.ServiceLocation.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\packages\Newtonsoft.Json.4.5.11\lib\winrt45\Newtonsoft.Json.xml">
+      <PackagePath>Newtonsoft.Json.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\packages\Microsoft.Data.OData.WindowsStore.5.0.0\lib\.NETCore\System.Spatial.WindowsStore.xml">
+      <PackagePath>System.Spatial.WindowsStore.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\SQLite.WinRT\3.7.15.2\Redist\Retail\x64\sqlite3.dll">
+      <PackagePath>sqlite3.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\ApressDemo\Assets\ApressBooth.png">
+      <PackagePath>Assets\ApressBooth.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\ApressDemo\Assets\ApressLogo.PNG">
+      <PackagePath>Assets\ApressLogo.PNG</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\ApressDemo\Assets\ApressLogoWide.PNG">
+      <PackagePath>Assets\ApressLogoWide.PNG</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\ApressDemo\Assets\ASPDotNetLogo.png">
+      <PackagePath>Assets\ASPDotNetLogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\ApressDemo\Assets\ASPWebAPI.png">
+      <PackagePath>Assets\ASPWebAPI.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\ApressDemo\Assets\AzurePlatform.png">
+      <PackagePath>Assets\AzurePlatform.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\ApressDemo\Assets\BadgeLogo.png">
+      <PackagePath>Assets\BadgeLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\ApressDemo\Assets\HappyHolidays.png">
+      <PackagePath>Assets\HappyHolidays.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\ApressDemo\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\ApressDemo\Assets\MigratingToWP.png">
+      <PackagePath>Assets\MigratingToWP.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\ApressDemo\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\ApressDemo\Assets\SQLAzure.png">
+      <PackagePath>Assets\SQLAzure.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\ApressDemo\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\ApressDemo\Assets\LightGray.png">
+      <PackagePath>Assets\LightGray.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\ApressDemo\Assets\MediumGray.png">
+      <PackagePath>Assets\MediumGray.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\ApressDemo\Assets\DarkGray.png">
+      <PackagePath>Assets\DarkGray.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\ApressDemo\Assets\UltraFastASP.png">
+      <PackagePath>Assets\UltraFastASP.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\ApressDemo\Assets\WindowsAzureLogo.png">
+      <PackagePath>Assets\WindowsAzureLogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\ApressDemo\Assets\WindowsPhoneLogo.png">
+      <PackagePath>Assets\WindowsPhoneLogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\ApressDemo\Assets\WPAppDev.png">
+      <PackagePath>Assets\WPAppDev.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\ApressDemo\Assets\WPRecipes.png">
+      <PackagePath>Assets\WPRecipes.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\ApressDemo\MVVMLight.Nuget.Readme.txt">
+      <PackagePath>MVVMLight.Nuget.Readme.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\ApressDemo\bin\x64\Release\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\ApressDemo\bin\x64\Release\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\ApressDemo\bin\x64\Release\Views\AccountPage.xaml">
+      <PackagePath>Views\AccountPage.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\ApressDemo\bin\x64\Release\Views\AccountSettingsFlyout.xaml">
+      <PackagePath>Views\AccountSettingsFlyout.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\ApressDemo\bin\x64\Release\Views\LiveIntegration.xaml">
+      <PackagePath>Views\LiveIntegration.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\ApressDemo\bin\x64\Release\Views\ManageCloud.xaml">
+      <PackagePath>Views\ManageCloud.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\ApressDemo\bin\x64\Release\Views\Media.xaml">
+      <PackagePath>Views\Media.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\ApressDemo\bin\x64\Release\Views\MVVMFeaturedBookList.xaml">
+      <PackagePath>Views\MVVMFeaturedBookList.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\ApressDemo\bin\x64\Release\Views\PrivacyStatementSettingsFlyout.xaml">
+      <PackagePath>Views\PrivacyStatementSettingsFlyout.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\ApressDemo\bin\x64\Release\Views\SearchResultsPage.xaml">
+      <PackagePath>Views\SearchResultsPage.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\ApressDemo\bin\x64\Release\Views\BookDetails.xaml">
+      <PackagePath>Views\BookDetails.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\ApressDemo\bin\x64\Release\Views\BookGroupsByTechnology.xaml">
+      <PackagePath>Views\BookGroupsByTechnology.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\ApressDemo\bin\x64\Release\Views\DummySplashScreen.xaml">
+      <PackagePath>Views\DummySplashScreen.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\ApressDemo\bin\x64\Release\Views\FeaturedBookList.xaml">
+      <PackagePath>Views\FeaturedBookList.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\ApressDemo\bin\x64\Release\Views\FlipViewDemo.xaml">
+      <PackagePath>Views\FlipViewDemo.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\ApressDemo\bin\x64\Release\Views\ListViewDemo.xaml">
+      <PackagePath>Views\ListViewDemo.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\ApressDemo\bin\x64\Release\Views\SettingsFlyout.xaml">
+      <PackagePath>Views\SettingsFlyout.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\ApressDemo\bin\x64\Release\Views\SignalRChat.xaml">
+      <PackagePath>Views\SignalRChat.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\ApressDemo\bin\x64\Release\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.VCLibs\11.0\">
+      <Name>Microsoft.VCLibs.110.00</Name>
+      <Version>11.0.50727.1</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.110.00, MinVersion = 11.0.50727.1</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.VCLibs\11.0\.\AppX\Retail\ARM\Microsoft.VCLibs.ARM.11.00.appx</AppxLocation>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.VCLibs\11.0\">
+      <Name>Microsoft.VCLibs.110.00</Name>
+      <Version>11.0.50727.1</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.110.00, MinVersion = 11.0.50727.1</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.VCLibs\11.0\.\AppX\Retail\x64\Microsoft.VCLibs.x64.11.00.appx</AppxLocation>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.VCLibs\11.0\">
+      <Name>Microsoft.VCLibs.110.00</Name>
+      <Version>11.0.50727.1</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.110.00, MinVersion = 11.0.50727.1</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.VCLibs\11.0\.\AppX\Retail\x86\Microsoft.VCLibs.x86.11.00.appx</AppxLocation>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

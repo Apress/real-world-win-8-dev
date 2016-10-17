@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>SAMIDIPBASU5906</Machine>
+    <WindowsUser>aapelpro</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>EFD4C0FD0875D5391D2ECE700C0DBBB488E4C8406F32A94B579F819533742AB8</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>35ee5043-966b-4d50-8408-8a138b1d4b9a_1.0.0.0_neutral__nggz3wqbh5vs6</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>35ee5043-966b-4d50-8408-8a138b1d4b9a_nggz3wqbh5vs6!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>35ee5043-966b-4d50-8408-8a138b1d4b9a</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=aapelpro</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="c:\users\aapelpro\documents\visual studio 2012\Projects\ApressShareTargetDemo\ApressShareTargetDemo\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-01-31T03:26:00.933</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="c:\users\aapelpro\documents\visual studio 2012\Projects\ApressShareTargetDemo\ApressShareTargetDemo\bin\Debug\ApressShareTargetDemo.exe">
+      <PackagePath>ApressShareTargetDemo.exe</PackagePath>
+      <Modified>2013-01-31T03:26:00.751</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\aapelpro\documents\visual studio 2012\Projects\ApressShareTargetDemo\ApressShareTargetDemo\bin\Debug\ApressShareTargetDemo.pdb">
+      <PackagePath>ApressShareTargetDemo.pdb</PackagePath>
+      <Modified>2013-01-31T03:26:00.733</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\aapelpro\documents\visual studio 2012\Projects\ApressShareTargetDemo\ApressShareTargetDemo\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-16T00:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\aapelpro\documents\visual studio 2012\Projects\ApressShareTargetDemo\ApressShareTargetDemo\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-12-11T14:08:41.532</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\aapelpro\documents\visual studio 2012\Projects\ApressShareTargetDemo\ApressShareTargetDemo\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-16T00:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\aapelpro\documents\visual studio 2012\Projects\ApressShareTargetDemo\ApressShareTargetDemo\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-16T00:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\aapelpro\documents\visual studio 2012\Projects\ApressShareTargetDemo\ApressShareTargetDemo\Common\ReadMe.txt">
+      <PackagePath>Common\ReadMe.txt</PackagePath>
+      <Modified>2013-01-31T03:13:27.591</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\aapelpro\documents\visual studio 2012\Projects\ApressShareTargetDemo\ApressShareTargetDemo\bin\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+      <Modified>2013-01-31T03:12:04.458</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\aapelpro\documents\visual studio 2012\Projects\ApressShareTargetDemo\ApressShareTargetDemo\bin\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+      <Modified>2012-06-26T20:19:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\aapelpro\documents\visual studio 2012\Projects\ApressShareTargetDemo\ApressShareTargetDemo\bin\Debug\MainPage.xaml">
+      <PackagePath>MainPage.xaml</PackagePath>
+      <Modified>2013-01-31T03:12:04.474</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\aapelpro\documents\visual studio 2012\Projects\ApressShareTargetDemo\ApressShareTargetDemo\bin\Debug\ShareTargetPage.xaml">
+      <PackagePath>ShareTargetPage.xaml</PackagePath>
+      <Modified>2013-01-31T03:13:27.560</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\aapelpro\documents\visual studio 2012\Projects\ApressShareTargetDemo\ApressShareTargetDemo\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2013-01-31T03:26:00.831</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

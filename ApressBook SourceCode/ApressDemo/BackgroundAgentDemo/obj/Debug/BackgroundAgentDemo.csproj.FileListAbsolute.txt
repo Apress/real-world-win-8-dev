@@ -1,0 +1,16 @@
+C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\BackgroundAgentDemo\bin\Debug\BackgroundAgentDemo.winmd
+C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\BackgroundAgentDemo\bin\Debug\BackgroundAgentDemo.pdb
+C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\BackgroundAgentDemo\bin\Debug\BackgroundAgentDemo.pri
+C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\BackgroundAgentDemo\obj\Debug\BackgroundAgentDemo.winmd
+C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\BackgroundAgentDemo\obj\Debug\BackgroundAgentDemo.pdb
+C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\BackgroundAgentDemo\obj\Debug\BackgroundAgentDemo.winmdobj
+C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\BackgroundAgentDemo\obj\Debug\BackgroundAgentDemo.compile.pdb
+C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\BackgroundAgentDemo\obj\Debug\priconfig.xml
+C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\BackgroundAgentDemo\obj\Debug\layout.resfiles
+C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\BackgroundAgentDemo\obj\Debug\resources.resfiles
+C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\BackgroundAgentDemo\obj\Debug\pri.resfiles
+C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\BackgroundAgentDemo\obj\Debug\LanguageQualifiers.txt
+C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\BackgroundAgentDemo\obj\Debug\priconfig.xml.intermediate
+C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\BackgroundAgentDemo\obj\Debug\layout.resfiles.intermediate
+C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\BackgroundAgentDemo\obj\Debug\resources.resfiles.intermediate
+C:\Users\aapelpro\documents\visual studio 2012\Projects\ApressDemo\BackgroundAgentDemo\obj\Debug\pri.resfiles.intermediate
